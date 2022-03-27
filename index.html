@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <!--font awesome-->
+    <link href="./fontawesome-free-5.15.3-web/css/all.min.css" rel="stylesheet">
+
+    <!--Style-->
+    <link href="styles.css" type="text/css" rel="stylesheet">
+
+</head>
+  <body>
+      <!--Navigation de coté-->
+      <!--Logigue : Utilisation de classList js pour changer la class de liens cachés -->
+      <!--Bouton d'ouverture-->
+      <button class="sidebar-toggle">
+          <i class="fas fa-bars"></i>
+      </button>
+
+      <aside class="sidebar">
+          <div class="sidebar-header">
+            <img src="./logo-iot.png" class="logo" alt="logo-iot">
+             <!--Bouton de fermeture-->
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <!-- links -->
+            <ul class="links">
+                <li>
+                <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                <a href="about.html">A-Propos</a>
+                </li>
+                <li>
+                <a href="projects.html">Projets</a>
+                </li>
+                <li>
+                <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <!-- social media -->
+            <ul class="social-icons">
+                <li>
+                <a href="https://www.twitter.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.twitter.com">
+                    <i class="fab fa-behance"></i>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.twitter.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.twitter.com">
+                    <i class="fab fa-sketch"></i>
+                </a>
+                </li>
+            </ul>
+      </aside>
+      
+    
+    <!--javascrip-->
+    <script src="app.js"></script>
+  </body>
+</html>
